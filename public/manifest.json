@@ -1,0 +1,17 @@
+{
+  "short_name": "Portfolio",
+  "name": "Obsidian Violet — Developer Portfolio Template",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0b0a14",
+  "theme_color": "#0b0a14",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Professional developer portfolio template built with React, TypeScript and Tailwind CSS."
+}

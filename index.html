@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Obsidian Violet — Developer Portfolio Template</title>
+    <meta name="title" content="Obsidian Violet — Developer Portfolio Template" />
+    <meta 
+      name="description" 
+      content="Professional developer portfolio template built with React, TypeScript and Tailwind CSS featuring dark theme, responsive design, animations, and client-side caching." 
+    />
+    <meta name="keywords" content="portfolio, developer portfolio, template, react, typescript, tailwind css, dark theme, modern portfolio" />
+    <meta name="author" content="Your Name" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b0a14" />
+    <link rel="canonical" href="https://your-domain.com/" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:title" content="Obsidian Violet — Developer Portfolio Template" />
+    <meta 
+      property="og:description" 
+      content="Professional developer portfolio template built with React, TypeScript and Tailwind CSS featuring dark theme, responsive design, animations, and client-side caching." 
+    />
+    <meta property="og:site_name" content="Developer Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://your-domain.com/" />
+    <meta name="twitter:title" content="Your Name | Developer Portfolio" />
+    <meta 
+      name="twitter:description" 
+      content="Professional developer portfolio template built with React, TypeScript and Tailwind CSS." 
+    />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" />
+
+    <!-- Performance & Preconnect -->
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Structured Data (JSON-LD) for Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://your-domain.com/#website",
+          "url": "https://your-domain.com/",
+          "name": "Developer Portfolio",
+          "description": "Professional developer portfolio template built with React, TypeScript and Tailwind CSS.",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://your-domain.com/#profile",
+          "isPartOf": { "@id": "https://your-domain.com/#website" },
+          "name": "Your Name | Developer Portfolio",
+          "mainEntity": {
+            "@type": "Person",
+            "name": "Your Name",
+            "jobTitle": "Your Role",
+            "email": "your@email.com",
+            "url": "https://your-domain.com/",
+            "sameAs": [
+              "https://github.com/your-username",
+              "https://linkedin.com/in/your-username"
+            ],
+            "knowsAbout": [
+              "TypeScript",
+              "React",
+              "Tailwind CSS",
+              "Full-Stack Development"
+            ]
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#0b0a14] text-[#e2e8f0] antialiased selection:bg-purple-500/30 selection:text-purple-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "Obsidian Violet — Developer Portfolio Template",
+  "description": "Professional developer portfolio template built with React, TypeScript and Tailwind CSS featuring dark theme, responsive design, animations, and client-side caching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
